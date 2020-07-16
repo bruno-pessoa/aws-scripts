@@ -1,4 +1,4 @@
-#Route 53 Scripts
+# Route 53 Scripts
 A few scripts I created to make it easy to query for IP addresses or CNAMEs across multiple Route53 Hosted Zones. Both scripts return the record names pointing to the values we specify.
 
 A pre-requisite is to have aws cli installed and IAM keys configured with access to list Route53 resources. Another option is to run it from an EC2 instance that has an IAM role with Route53 list permissions.
